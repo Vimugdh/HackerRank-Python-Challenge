@@ -6,7 +6,8 @@ import numpy
 
 '''
 Here we take input in the form of a tuple because the numpy.zeros() and numpy.ones() functions
-take input about the number of dimensions in the form of a tuple. 
+take input about the number of dimensions in the form of a tuple so we can directly pass this
+to the functions
 '''
 
 def takeInput():

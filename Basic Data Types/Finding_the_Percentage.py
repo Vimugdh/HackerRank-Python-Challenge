@@ -9,7 +9,7 @@ def main(query_name):
     for item in student_marks[query_name]:
         sumOfMarks += item
         countSubjects += 1
-    print('{0:.2f}'.format(sumOfMarks / countSubjects))
+    print('{0:.2f}'.format(sumOfMarks / countSubjects)) #Printing correct to two decimal places
 
 if __name__ == '__main__':
     n = int(input())
